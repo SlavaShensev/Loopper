@@ -25,6 +25,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: Path.resolve(__dirname, '../src/index.html'),
+            title: "home",
             minify: {
                 collapseWhitespace: false
             }
