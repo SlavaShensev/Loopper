@@ -6,6 +6,66 @@
   z-index: 100;
   height: auto;
 
+  &__content {
+    position: relative;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
 
-  background-color: green;
+    .header__logo {
+      padding: 10px;
+
+      .logo__text {
+        color: $color__purple-4;
+        font-family: $font-default;
+        font-size: 24px;
+        line-height: 43px;
+        font-weight: 900;
+      }
+    }
+
+    .header__nav {
+
+      .nav__list {
+        display: flex;
+        padding: 17px;
+
+
+        .nav__item {
+          padding-left: 50px;
+
+          .mobile__number {
+            color: $color__purple-4;;
+            font-family: $font-default;
+            font-weight: 800;
+            font-size: 14.4px;
+            line-height: 30px;
+          }
+
+          .nav__link {
+            color: $color__purple-4;
+            font-family: $font-default;
+            font-weight: 800;
+            font-size: 14.4px;
+            line-height: 30px;
+          }
+
+          .nav__link:hover {
+            text-decoration: none;
+            border-bottom: 1.5px solid $color__purple-1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mobile__icon {
+  padding-right: 10px;
+
+  .icon__svg {
+
+  }
 }
