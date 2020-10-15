@@ -65,6 +65,20 @@ module.exports = {
                 collapseWhitespace: false
             }
         }),
+        new HtmlWebpackPlugin({
+            filename: 'footer.html',
+            template: Path.resolve(__dirname, '../src/includes/footer.html'),
+            minify: {
+                collapseWhitespace: false
+            }
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'header.html',
+            template: Path.resolve(__dirname, '../src/includes/header.html'),
+            minify: {
+                collapseWhitespace: false
+            }
+        })
     ],
     resolve: {
         alias: {

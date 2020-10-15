@@ -1,11 +1,4 @@
-.header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  height: auto;
-
-
-  background-color: green;
+.logo__text {
+  font-family: $font-accent;
+  font-weight: 800;
 }

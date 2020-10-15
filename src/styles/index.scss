@@ -2,6 +2,7 @@
 @import "settings/variables";
 @import "settings/libs";
 @import "settings/base";
+@import "settings/mixins";
 
 @import "components/button";
 
@@ -10,7 +11,13 @@
 @import "layout/main";
 @import "layout/sections";
 
-@import "sections/testimonials";
+
 
 @import "page/home";
-@import "page/project";
+@import "page/about";
+@import "page/contact";
+@import "page/gallery";
+@import "page/services";
+@import "page/team";
+
+
