@@ -1,27 +1,61 @@
-.section__header {
-  position: relative;
+.section__hero {
+  min-height: 360px;
 
-  .header__bg {
+  .hero__bg {
     background-color: $secondary_100;
+    position: absolute;
   }
 
-  .header__img {
+  .hero__img {
     mix-blend-mode: multiply;
   }
 }
 
-.team__header {
+.hero__content {
+  padding-top: 100px;
+  z-index: 2;
+  position: relative;
 
-  top: 107px;
-  left: 150px;
-
-
-  .header__title {
+  .hero__title {
     color: $primary;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
   }
 
-  .header__text {
+  .hero__text {
     color: $LightGrey;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+}
+
+.section__hero {
+  @include media-breakpoint-down(lg) {
+    .hero__content {
+      padding-top: 10px;
+    }
+    .hero__title {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .hero__content {
+      text-align: center;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    .title-xl {
+      font-size: 1.3em;
+      letter-spacing: 1px;
+      line-height: 30px;
+    }
+    .text-l {
+      font-size: 0.7em;
+      letter-spacing: 1px;
+      line-height: 30px;
+    }
   }
 }
 
