@@ -1,0 +1,73 @@
+.title {
+  font-weight: 500;
+
+  &-xxl {
+    font-size: 5em; //99
+    line-height: 117px;
+    font-weight: 900;
+  }
+
+  &-xl {
+    font-size: 3em; //54
+    line-height: 80px;
+  }
+
+  &-l {
+    font-size: 2.5em; //45
+    line-height: 67px;
+  }
+
+  &-m {
+    font-size: 2em; //36
+    line-height: 53px;
+  }
+
+  &-s {
+    font-size: 1.5em; //27
+    line-height: 40px;
+  }
+
+  &-xs {
+    font-size: 1em; //18
+    line-height: 27px;
+  }
+}
+
+.text {
+
+  &-xxl {
+   font-size: 1.2em;//21.6
+   line-height: 35px;
+  }
+
+  &-xl {
+   font-size: 1.1em;//19.8
+   line-height: 32px;
+  }
+
+  &-l {
+    font-size: 1em;//18
+    line-height: 29px;
+  }
+
+  &-m {
+    font-size: 0.9em;//16.2
+    line-height: 26px;
+  }
+
+  &-s {
+    font-size: 13.5px;//button
+    line-height: 20px;
+  }
+
+  &-xs {
+    font-size: 12.6px;//button
+    line-height: 26px;
+  }
+}
+
+//font-size: 22.5px; ->  Noticia Text; font-style: italic;
+//line-height: 40px;
+//
+//font-size: 36px;   ->  Noticia Text; font-style: italic;
+//line-height: 64px;
