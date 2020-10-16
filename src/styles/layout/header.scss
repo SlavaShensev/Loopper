@@ -1,1 +1,28 @@
+.header__content {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
 
+  .logo__text {
+
+  }
+
+  .header__nav {
+
+
+    .nav__list {
+      display: flex;
+
+      .nav__item {
+        margin-left: 55px;
+      }
+    }
+  }
+
+  .mobile__number {
+    margin-left: 25px;
+  }
+
+}

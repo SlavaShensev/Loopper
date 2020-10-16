@@ -1,7 +1,8 @@
 # dependencies
 node_modules
 data
-
+#layout
+git-ignor
 # production
 build
 
