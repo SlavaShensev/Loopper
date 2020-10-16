@@ -1,0 +1,31 @@
+.section__header {
+  position: relative;
+
+  .header__bg {
+    background-color: $secondary_100;
+  }
+
+  .header__img {
+    mix-blend-mode: multiply;
+  }
+}
+
+.team__header {
+
+  top: 107px;
+  left: 150px;
+
+
+  .header__title {
+    color: $primary;
+  }
+
+  .header__text {
+    color: $LightGrey;
+  }
+}
+
+
+
+
+

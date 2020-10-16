@@ -1,5 +1,4 @@
 .title {
-  font-weight: 500;
 
   &-xxl {
     font-size: 5em; //99
@@ -10,6 +9,7 @@
   &-xl {
     font-size: 3em; //54
     line-height: 80px;
+    font-weight: 500;
   }
 
   &-l {
@@ -30,6 +30,7 @@
   &-xs {
     font-size: 1em; //18
     line-height: 27px;
+    font-weight: 800;
   }
 
   &-xxs {           //->header logo
