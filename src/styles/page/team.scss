@@ -19,14 +19,15 @@
   .hero__title {
     color: $primary;
     padding-top: 5px;
-    padding-bottom: 10px;
-    letter-spacing: 4px;
+    padding-bottom: 40px;
+
   }
 
   .hero__text {
     color: $LightGrey;
     letter-spacing: 5px;
     text-transform: uppercase;
+
   }
 }
 
@@ -46,15 +47,11 @@
     }
   }
   @include media-breakpoint-down(sm) {
-    .title-xl {
+    .hero__title {
       font-size: 1.3em;
-      letter-spacing: 1px;
-      line-height: 30px;
     }
-    .text-l {
+    .hero__text {
       font-size: 0.7em;
-      letter-spacing: 1px;
-      line-height: 30px;
     }
   }
 }
