@@ -3,7 +3,7 @@
 
   &-xxl {
     font-size: 5em; //99
-    line-height: 117px;
+    line-height: 117;
     font-weight: 900;
   }
 
@@ -14,7 +14,7 @@
 
   &-l {
     font-size: 2.5em; //45
-    line-height: 67px;
+    line-height: (67/45);
   }
 
   &-m {
