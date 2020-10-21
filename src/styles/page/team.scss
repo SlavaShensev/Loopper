@@ -1,3 +1,4 @@
+//--------- hero
 .section__hero {
   min-height: 360px;
 
@@ -18,16 +19,14 @@
 
   .hero__title {
     color: $primary;
-    padding-top: 5px;
-    padding-bottom: 40px;
-
+    padding-top: 12px;
+    padding-bottom: 35px;
   }
 
   .hero__text {
     color: $LightGrey;
     letter-spacing: 5px;
     text-transform: uppercase;
-
   }
 }
 
@@ -56,7 +55,30 @@
   }
 }
 
+//--------- info
 
+.section__info {
 
+}
 
+.info {
+  min-height: 700px;
+  //padding-top: 175px;
+  text-align: center;
 
+  &__content {
+
+  }
+}
+
+.info__slogan {
+  color: $primary;
+}
+
+.info__title {
+  color: $TextHeaders;
+}
+
+.info__text {
+  color: $TextHeaders;
+}
