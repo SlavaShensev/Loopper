@@ -30,6 +30,7 @@
   }
 }
 
+//--------- hero --> media
 .section__hero {
   @include media-breakpoint-down(lg) {
     .hero__content {
@@ -56,29 +57,48 @@
 }
 
 //--------- info
-
 .section__info {
-
 }
 
 .info {
   min-height: 700px;
-  //padding-top: 175px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 
   &__content {
-
+    max-width: 560px;
+    padding: 175px 10px 10px;
+    text-align: center;
   }
 }
 
 .info__slogan {
   color: $primary;
+  letter-spacing: 6px;
+  padding-bottom: 13px;
 }
 
 .info__title {
   color: $TextHeaders;
+  letter-spacing: 3px;
+  padding-bottom: 25px;
 }
 
 .info__text {
   color: $TextHeaders;
+  letter-spacing: 1px;
+}
+
+//--------- info -->media
+
+.section__info {
+  @include media-breakpoint-down(lg) {
+
+  }
+  @include media-breakpoint-down(md) {
+
+  }
+  @include media-breakpoint-down(sm) {
+
+  }
 }
