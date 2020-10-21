@@ -148,13 +148,11 @@
 .team__member {
   position: relative;
   top: -115px;
-
 }
 
 .member {
   width: 33%;
   text-align: center;
-
 
   &__avatar {
     width: 262px;
@@ -164,7 +162,21 @@
   }
 }
 
+.member__content {
 
+  .member__name {
+    color: $WhiteGrey;
+  }
+
+  .member__position {
+    color: $WhiteGrey;
+    opacity: 0.5;
+  }
+
+  .member__social {
+
+  }
+}
 
 
 
