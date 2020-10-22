@@ -79,7 +79,7 @@
 
   &-xs {
     font-size: 12.6px;
-    line-height: 26px;
+      //letter-spacing: (12.6/26);  //font-size / line-height
   }
 }
 

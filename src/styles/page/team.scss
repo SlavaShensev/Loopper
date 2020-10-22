@@ -4,7 +4,7 @@
 
 .hero {
   position: relative;
-  height: 360px;
+  height: 366px;
 
   &__bg {
     position: absolute;
@@ -32,12 +32,13 @@
   &__title {
     color: $primary;
     padding-top: 12px;
-    padding-bottom: 35px;
+    padding-bottom: 10px;
   }
 
   &__text {
     color: $LightGrey;
     letter-spacing: 5px;
+    text-transform: uppercase;
   }
 }
 
@@ -86,7 +87,8 @@
 .info__slogan {
   color: $primary;
   letter-spacing: 6px;
-  padding-bottom: 13px;
+  padding-bottom: 27px;
+  text-transform: uppercase;
 }
 
 .info__title {
@@ -152,7 +154,9 @@
 
 .member {
   width: 33%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 160px;
 
   &__avatar {
@@ -164,24 +168,41 @@
 }
 
 .member__content {
+  max-width: 140px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
 
   .member__name {
     color: $WhiteGrey;
+    letter-spacing: 0.6px;
   }
 
   .member__position {
     color: $WhiteGrey;
     opacity: 0.5;
+    letter-spacing: 6px;
   }
 
   .member__social {
-
+    display: flex;
+    justify-content: space-between;
   }
 }
 
+//--------- team -->media
 
+.section__team {
+  @include media-breakpoint-down(lg) {
 
+  }
+  @include media-breakpoint-down(md) {
 
+  }
+  @include media-breakpoint-down(sm) {
+
+  }
+}
 
 
 
