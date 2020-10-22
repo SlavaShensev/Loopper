@@ -145,6 +145,7 @@
 .team { //1080 - height
   background-color: $secondary_400;
   position: relative;
+  padding-bottom: 78px;
 }
 
 .team__member {
@@ -157,7 +158,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 160px;
+  margin-bottom: 130px;
 
   &__avatar {
     width: 262px;
@@ -176,12 +177,16 @@
   .member__name {
     color: $WhiteGrey;
     letter-spacing: 0.6px;
+    padding-top: 13px;
+    padding-bottom: 7px;
   }
 
   .member__position {
     color: $WhiteGrey;
     opacity: 0.5;
     letter-spacing: 6px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
   }
 
   .member__social {
