@@ -199,13 +199,15 @@
 
 .section__team {
   @include media-breakpoint-down(lg) {
-
-  }
-  @include media-breakpoint-down(md) {
-
-  }
-  @include media-breakpoint-down(sm) {
-
+    .team__member {
+      top: -35px;
+    }
+    .team {
+      padding-bottom: 0;
+    }
+    .member {
+      margin-bottom: 30px;
+    }
   }
 }
 
